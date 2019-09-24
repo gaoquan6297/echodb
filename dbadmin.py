@@ -11,7 +11,7 @@ from Crypto.Cipher import AES
 
 class DbManager(object):
     def __init__(self):
-        self.host = '10.110.76.226'
+        self.host = '127.0.0.1'
         self.port = 3336
         self.database = 'dbadmin'
         self.username = 'dbadmin'
